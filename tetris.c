@@ -1,27 +1,26 @@
-🛡️ Nível Aventureiro: Reserva de Peças com Pilha
-No nível Aventureiro, você irá expandir o sistema com uma pilha de reserva de peças, que permite ao jogador guardar peças para uso posterior.
+🏆 Nível Mestre: Integração Total com Estratégia
+No nível Mestre, você implementará uma integração complexa entre a fila e a pilha, simulando funcionalidades avançadas como troca, desfazer e inversão de peças.
 
-🆕 Diferença em relação ao Nível Novato:
+🆕 Diferença em relação ao Nível Aventureiro:
 
-Introdução da pilha linear para reservar peças.
-A fila permanece sempre cheia com 5 peças.
+Operações mais complexas e estratégicas entre as estruturas.
+Manipulação reversível do estado das peças.
 ⚙️ Funcionalidades do Sistema:
 
-Além das opções anteriores, o usuário pode:
-Reservar a peça da frente da fila (push)
-Usar uma peça reservada (pop)
-A fila continua funcionando com inserção automática.
-A pilha tem capacidade máxima de 3 peças.
-📥 Entrada e 📤 Saída de Dados:
-
-Menu com 4 opções:
+Menu com múltiplas ações:
 1 - Jogar peça
 2 - Reservar peça
 3 - Usar peça reservada
+4 - Trocar peça do topo da pilha com a da frente da fila
+5 - Desfazer última jogada
+6 - Inverter fila com pilha
 0 - Sair
-O estado da fila e da pilha é exibido após cada ação.
-Simplificações para o Nível Intermediário:
+Controle de fila circular e pilha de reserva com atualização a cada ação.
+📥 Entrada e 📤 Saída de Dados:
 
-A pilha não permite escolha da posição.
-O jogador não escolhe o tipo da peça — todas são geradas automaticamente.
-Não há comparação nem troca direta entre as estruturas.
+Mesmo estilo dos níveis anteriores.
+Agora exige controle total do fluxo e da memória entre as estruturas.
+Observações:
+
+Cada operação deve ser segura e manter a integridade dos dados.
+A complexidade exige modularização clara e funções bem separadas.
